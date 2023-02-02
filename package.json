@@ -1,0 +1,18 @@
+{
+  "name": "base-maquetacion-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "sass --watch --load-path=node_modules src/styles/index.scss public/styles/index.css",
+    "paquetes": "sass --watch --load-path=node_modules src/styles/index.scss public/styles/paquetes.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.0",
+    "sass-flexbox-grid-oasis": "^1.0.2"
+  }
+}
